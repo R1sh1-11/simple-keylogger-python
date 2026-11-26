@@ -2,7 +2,7 @@
 
 A keylogger tool built in Python using the `pynput` library. This project demonstrates the mechanics of input monitoring, event listeners, and file handling in a Windows environment.
 
-**DISCLAIMER: This project is for educational purposes only (I am not trying to get in trouble).**
+**DISCLAIMER: This project was built for educational purposes only**
 This tool was created to understand the security implications of keylogging and input monitoring. Do not use this software on any system where you do not have explicit permission from the owner!
 
 ## Features/Instructions:
@@ -23,5 +23,8 @@ pip install -r requirements.txt
 ## Run the Script:
 python main.py
 
-**Security Note:**
-This script may be flagged by Windows Defender (eyeroll). It will continue to delete main.py until and unless you add an exclusion to your specific project file.
+## Note on antivirus
+Windows Defender correctly flags this script as a keylogger and may quarantine main.py. That is expected; it shows endpoint protection catching this behavior.
+
+## Disclaimer
+For educational use only. Run it only on machines you own or have explicit permission to test.
