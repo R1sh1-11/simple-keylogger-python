@@ -9,7 +9,6 @@ This tool was created to understand the security implications of keylogging and 
 * **Live Logging:** Captures all alphanumeric keys and special characters.
 * **Timestamping:** detailed logs with date and time for every keystroke (`YYYY-MM-DD HH:MM:SS`).
 * **Kill Switch:** Press `Esc` to immediately terminate the script.
-* **Stealth:** Runs in the background (terminal) until terminated.
 
 ## How to Install:
 
